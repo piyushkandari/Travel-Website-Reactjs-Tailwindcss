@@ -10,6 +10,7 @@ import {
 const Footer = () => {
   return (
     
+     <div>
       <div className='w-full bg-gray-100 py-16'>
       <div className='max-w-[1240px] mx-auto flex flex-col px-4'>
         <div className='sm:flex text-center justify-between items-center'>
@@ -39,8 +40,11 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className='my-6 flex justify-center'>&#169;piyushkandari 2022-23</div>
-    </div>
+      </div>
+      <div className='w-full bg-gray-100  flex justify-center'>&#169;piyushkandari 2022-23</div>
+     </div>
+      
+    
    
 
    
